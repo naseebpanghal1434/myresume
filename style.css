@@ -1,0 +1,84 @@
+body{
+    background-color: black;
+    margin: 20px;
+    border: 3px solid white;
+    color: white;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    
+}
+.nav-list{
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    align-self: center;
+}
+.nav-list li{
+    align-items: center;
+    padding: 10px;
+    border: 2px solid white;
+
+}
+
+.nav-list li:hover{
+    background-color: white;
+    color: black;
+}
+
+
+/* Main Area */
+
+main{
+   padding: 20px;
+}
+
+.mytitle{
+    text-align: center;
+    color: aqua;
+}
+
+.myimage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    width: 50%;
+}
+
+.bio-title{
+    text-decoration:line-through;
+    text-align: center;
+}
+
+.bio-desc{
+    
+}
+
+.bio {
+    margin-top: 10px;
+}
+
+.lists{
+    display: flex;
+    justify-content: space-around;
+}
+
+label{
+    color:aqua;
+}
+h3{
+    color:aqua;
+}
+
+h2{
+    padding-top: 20px;
+}
+
+a{
+    color: #f5c242;
+}
