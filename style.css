@@ -58,7 +58,7 @@ nav{
 .subcontainerOneImage{
     max-width: 30vw;
     padding: 2vw;
-    border-radius: 10%;
+    border-radius: 20%;
 }
 
 @media (max-width: 481px) {
